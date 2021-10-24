@@ -545,6 +545,7 @@ footer address {
 
 .content_read.kurigokoro p {
     margin-bottom: 30px;
+    margin-right: 2rem;
 }
 
 
@@ -581,6 +582,7 @@ footer address {
     font-size: 1.8rem;
     margin-bottom: 30px;
     line-height: 2.9rem;
+    margin-right: 2rem;
 }
 
 .content_read.set .content_entry_flex p {
