@@ -581,14 +581,14 @@ footer address {
     color: white;
     font-size: 1.8rem;
     margin-bottom: 30px;
-    line-height: 2.9rem;
+    /* line-height: 2.3rem; */
     margin-right: 2rem;
 }
 
 .content_read.set .content_entry_flex p {
     color: black;
     text-align: left;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 
 @media screen and (min-width: 768px) {
