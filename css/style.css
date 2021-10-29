@@ -378,7 +378,7 @@ footer address {
 }
 
 .main_flex h4 {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: bold;
     color: #660000;
     margin-bottom: 0.9rem;
@@ -386,7 +386,9 @@ footer address {
 }
 
 .main_flex span {
-    font-size: 0.3rem;
+    /*font-size: 0.5rem;*/
+	font-size: 1.1rem;
+	letter-spacing: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -400,44 +402,14 @@ footer address {
     .main_flex span {
         font-size: 2rem;
     }
+
+     .main_flex dd{
+         font-size:2rem;
+         line-height:2.3rem;
+     }
 }
 
 
-/* .page_top .content_read {
-  position: relative;
-  z-index: 2;
-  background: -moz-linear-gradient(50% 100% 90deg, rgba(247, 196, 152, 0.5) 0%, #c9ddbf 99.98%);
-  background: -webkit-linear-gradient(90deg, rgba(247, 196, 152, 0.5) 0%, #c9ddbf 99.98%);
-  background: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0, rgba(247, 196, 152, 0.5)), color-stop(0.9998, #c9ddbf));
-  background: -o-linear-gradient(90deg, rgba(247, 196, 152, 0.5) 0%, #c9ddbf 99.98%);
-  background: -ms-linear-gradient(90deg, rgba(247, 196, 152, 0.5) 0%, #c9ddbf 99.98%);
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#F7C498', endColorstr='#C9DDBF' ,GradientType=0)";
-  background: linear-gradient(0deg, rgba(247, 196, 152, 0.5) 0%, #c9ddbf 99.98%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#C9DDBF',endColorstr='#F7C498' , GradientType=0);
-  color: #573016;
-  padding-bottom: 2px;
-  border-bottom: 5px solid #C1B85E;
-  font-size: 1.3rem;
-  letter-spacing: 0.05em;
-  line-height: 1.9; }
-  @media screen and (min-width: 768px) {
-    .page_top .content_read {
-      font-size: 2.4rem;
-      letter-spacing: 0.1em;
-      border-bottom: 3px solid #C1B85E; } }
-  .page_top .content_read .txt_left {
-    text-align: left;
-    padding: 5% 0 2.5% 5%;
-    background: url("../img/top/bg_read-01.png") no-repeat right 2px;
-    background-size: contain; }
-    @media screen and (min-width: 768px) {
-      .page_top .content_read .txt_left {
-        padding: 5% 0 4% 5%; } }
-  .page_top .content_read .txt_right {
-    text-align: right;
-    padding: 3% 5% 5% 0;
-    background: url("../img/top/bg_read-02.png") no-repeat left bottom;
-    background-size: contain; } */
 
 
 /* 焼きくりきんとんここから */
@@ -445,7 +417,7 @@ footer address {
 .yakiImg {
     max-width: 1000px;
     margin: auto;
-    margin-bottom: 0.5em;
+    margin-bottom: 20px;
 }
 
 .content_read.yaki {
@@ -455,37 +427,55 @@ footer address {
 }
 
 .content_read.yaki p {
-    margin: 0px 0 30px;
+    /* margin: 0px 0 30px; */
+    /* font-family: 'Noto Sans JP'; */
+    margin-bottom: 20px;
 }
 
+.content_entry_flex p {
+    font-family: 'Noto Sans JP';
+}
+
+.yaki_kuigokoro{
+    height:20px;
+
+    background-image: url("../images/top/bg_line-04.jpg");
+}
 
 /* 焼きくり　ショップエリア */
 
 .shop_area {
     background-color: white;
     padding: 30px;
-    box-shadow: 3px 0 8px #ccc, -3px 0 8px #ccc;
+    /* box-shadow: 3px 0 8px #ccc, -3px 0 8px #ccc; */
     position: relative;
     margin-bottom: 30px;
+    box-shadow: 0 0 3px 3px rgb(0 0 0 / 20%);
 }
 
-.content_read.yaki .shop_area p {
-    margin-right: 2rem;
+
+
+.shop_area img{
+    margin-bottom:10px;
 }
+
 
 .shop_area div p,
 .shop_area div img {
     width: 50%;
     align-self: flex-start;
+    margin-right: 1rem;
+    /* margin-right: 2rem; */
 }
+
 
 @media screen and (min-width: 768px) {
     .shop_area>img,
     .shop_area div p {
-        width: 60%;
+        width: 55%;
     }
     .shop_area div img {
-        width: 35%;
+        width: 31%;
         position: absolute;
         top: 30px;
         right: 30px;
@@ -494,7 +484,14 @@ footer address {
     .shop_area .btn_link-entry {
         margin-top: 60px;
     }
-}
+
+    .shop_area.set .btn_link-entry {
+        margin-top: 0px;
+    }
+
+    }
+
+
 
 
 /*焼きくりきんとん ここまで */
@@ -528,9 +525,11 @@ footer address {
 }
 
 .kurigogoro_tit span {
-    font-size: 2.5rem;
-    border-top: 1px solid rgb(101, 24, 21);
-    border-bottom: 1px solid rgb(101, 24, 21);
+    font-size: 2.4rem;
+    border-top: 1.5px solid;
+    border-image: linear-gradient(to right,#766400 0%,
+    #D9C250 100%) 1;
+    border-bottom: 1.5px solid;
 }
 
 @media screen and (min-width: 768px) {
@@ -543,9 +542,13 @@ footer address {
     }
 }
 
+.kurigokoroImg img{
+    margin-bottom:20px;
+}
+
 .content_read.kurigokoro p {
     margin-bottom: 30px;
-    margin-right: 2rem;
+    /* margin-right: 2rem; */
 }
 
 
@@ -555,18 +558,20 @@ footer address {
 /* ここから和栗菓子二種セット */
 
 .content_read.set {
-    background: linear-gradient(180deg, rgba(83, 0, 0, 1) 27.77%, rgba(173, 0, 6, 0.6) 98.83%);
+    background: url(../images/top/bg_set-01.png), linear-gradient(180deg, rgba(83, 0, 0, 1) 27.77%, rgba(173, 0, 6, 0.6) 98.83%);
     padding-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .set_tit {
     font-family: 'Noto Serif JP';
     text-align: center;
     font-weight: bold;
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     line-height: 50px;
     color: white;
-    line-height: 3.5rem;
+    line-height: 4.5rem;
     margin-bottom: 30px;
 }
 
@@ -575,21 +580,26 @@ footer address {
     text-decoration-thickness: 1px;
 }
 
-.content_read.set p {
+/* .set_tit p {
     text-align: center;
+    font-size: 2rem;
     font-family: 'Noto Serif JP';
     color: white;
-    font-size: 1.8rem;
     margin-bottom: 30px;
-    /* line-height: 2.3rem; */
-    margin-right: 2rem;
-}
+    line-height: 3rem;
+    margin-top: 30px;
+} */
 
+.set_tit img{
+    width: 30%;
+    margin: 20px;
+}
 .content_read.set .content_entry_flex p {
     color: black;
     text-align: left;
-    font-size: 1.4rem;
+    font-family: 'Noto Serif JP';
 }
+
 
 @media screen and (min-width: 768px) {
     .set_tit {
@@ -597,14 +607,22 @@ footer address {
         line-height: 6.9rem;
         ;
     }
-    .content_read.set p {
+    .set_tit p {
         font-size: 3rem;
-        line-height: 3.7rem;
+        line-height: 4.9rem;
+        margin: 4rem;
     }
+    
 }
 
-
+.sup_line{
+    background-image: url(../images/top/bg_line-05.svg);
+    height: 20px;
 }
+　
+
+/* 特撰二種セットここまで */
+
 .page_top .content_startBuy {
     background-color: #F5E8C9;
     padding: 2% 0;
@@ -803,14 +821,7 @@ footer address {
     margin-bottom: 0.5em;
 }
 
-/* 
-      .page_top .content_shopping h2 {
-        background-color: #EFE7BC;
-        padding: 0.5em;
-        margin-bottom: 0.5em;
-        font-size: 1.2rem;
-        font-weight: 700;
-    } */
+
 .page_top .content_shopping {
     padding: 4% 0 2%;
     color: #1a1a1a;
@@ -888,6 +899,7 @@ footer address {
 .content_entry_flex {
     display: flex;
     justify-content: space-between;
+    /* margin-bottom: -10px; */
 }
 .content_entry_left {
     padding-right: 2%;
@@ -898,15 +910,17 @@ footer address {
     font-size: 5em;
 }
 .content_btn_p {
-    letter-spacing: 0;
-    font-size: 1.5rem;
+    letter-spacing: rem;
+    font-size: 1.2rem;
     font-family: 'Noto Serif JP', serif;
     margin-bottom: -14%;
     font-weight: bold;
+    letter-spacing: 0rem;
 }
 @media screen and (min-width: 768px) {
     .content_btn_p {
         font-size: 2.2rem;
+        line-height: 3rem;
     }
 }
 .content_btn_p .small {
@@ -943,41 +957,51 @@ footer address {
 }
 .btn_link-entry a {
     display: block;
-    background-color: #B1001E;
+    background-color: #7B001E;
     width: 100%;
     margin: 2% auto 1%;
     padding: 4% 0px;
     border: none;
     border-radius: 10px;
-    box-shadow: 0px 5px #77001A;
+    font-family: 'Noto Sans JP';
+    box-shadow: 0px 5px #111;
     text-align: center;
     color: #fff;
-    letter-spacing: 0.05em;
+    /* letter-spacing: 0.05em; */
     font-size: 1.8rem;
+    /* height: 49px; */
+    line-height: 2.2rem;
 }
 @media screen and (min-width: 768px) {
     .content_entry .btn_link-entry a {
         font-size: 3.2rem;
         border-radius: 20px;
-        box-shadow: 0px 10px #77001A;
+        box-shadow: 0px 10px #111;
         letter-spacing: 0.1em;
     }
 }
 .btn_link-entry a>span {
     padding-right: 30px;
     background: url("../images/common/ico_cart-01.svg") no-repeat center right;
-    background-size: 23px;
+    background-size: auto;
     font-weight: 900;
     letter-spacing: 0.05em;
-    font-size: 2rem;
+    font-size: 1.4rem;
     padding-right: 24px;
+    /* height: 23px; */
+    /* display: block; */
 }
 @media screen and (min-width: 768px) {
     .btn_link-entry a>span {
-        padding-right: 52px;
+        padding-right: 40px;
         background-size: 42px;
         font-size: 3rem;
     }
+    .btn_link-entry a {
+     line-height: 5rem;
+    }
+
+    
 }
 .btn_link-entry a:active {
     -webkit-transform: translateY(5px);
