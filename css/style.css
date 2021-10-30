@@ -387,8 +387,8 @@ footer address {
 
 .main_flex span {
     /*font-size: 0.5rem;*/
-	font-size: 1.1rem;
-	letter-spacing: 0;
+    font-size: 1.1rem;
+    letter-spacing: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -402,14 +402,20 @@ footer address {
     .main_flex span {
         font-size: 2rem;
     }
-
-     .main_flex dd{
-         font-size:2rem;
-         line-height:2.3rem;
-     }
+    .main_flex dd {
+        font-size: 2rem;
+        line-height: 2.3rem;
+    }
+    .mainImg .pc.mainBack {
+        position: relative;
+    }
+    .mainImg .pc.mainTit {
+        position: absolute;
+        top: 2%;
+        left: 33%;
+        width: 40%;
+    }
 }
-
-
 
 
 /* 焼きくりきんとんここから */
@@ -436,11 +442,11 @@ footer address {
     font-family: 'Noto Sans JP';
 }
 
-.yaki_kuigokoro{
-    height:20px;
-
+.yaki_kuigokoro {
+    height: 20px;
     background-image: url("../images/top/bg_line-04.jpg");
 }
+
 
 /* 焼きくり　ショップエリア */
 
@@ -453,12 +459,9 @@ footer address {
     box-shadow: 0 0 3px 3px rgb(0 0 0 / 20%);
 }
 
-
-
-.shop_area img{
-    margin-bottom:10px;
+.shop_area img {
+    margin-bottom: 10px;
 }
-
 
 .shop_area div p,
 .shop_area div img {
@@ -467,7 +470,6 @@ footer address {
     margin-right: 1rem;
     /* margin-right: 2rem; */
 }
-
 
 @media screen and (min-width: 768px) {
     .shop_area>img,
@@ -484,14 +486,10 @@ footer address {
     .shop_area .btn_link-entry {
         margin-top: 60px;
     }
-
     .shop_area.set .btn_link-entry {
         margin-top: 0px;
     }
-
-    }
-
-
+}
 
 
 /*焼きくりきんとん ここまで */
@@ -527,8 +525,7 @@ footer address {
 .kurigogoro_tit span {
     font-size: 2.4rem;
     border-top: 1.5px solid;
-    border-image: linear-gradient(to right,#766400 0%,
-    #D9C250 100%) 1;
+    border-image: linear-gradient(to right, #766400 0%, #D9C250 100%) 1;
     border-bottom: 1.5px solid;
 }
 
@@ -542,8 +539,8 @@ footer address {
     }
 }
 
-.kurigokoroImg img{
-    margin-bottom:20px;
+.kurigokoroImg img {
+    margin-bottom: 20px;
 }
 
 .content_read.kurigokoro p {
@@ -580,6 +577,7 @@ footer address {
     text-decoration-thickness: 1px;
 }
 
+
 /* .set_tit p {
     text-align: center;
     font-size: 2rem;
@@ -590,16 +588,16 @@ footer address {
     margin-top: 30px;
 } */
 
-.set_tit img{
+.set_tit img {
     width: 30%;
     margin: 20px;
 }
+
 .content_read.set .content_entry_flex p {
     color: black;
     text-align: left;
     font-family: 'Noto Serif JP';
 }
-
 
 @media screen and (min-width: 768px) {
     .set_tit {
@@ -612,14 +610,13 @@ footer address {
         line-height: 4.9rem;
         margin: 4rem;
     }
-    
 }
 
-.sup_line{
+.sup_line {
     background-image: url(../images/top/bg_line-05.svg);
     height: 20px;
 }
-　
+
 
 /* 特撰二種セットここまで */
 
@@ -627,75 +624,92 @@ footer address {
     background-color: #F5E8C9;
     padding: 2% 0;
 }
+
 @media screen and (min-width: 768px) {
     .page_top .content_startBuy {
         padding: 20px 0;
     }
 }
+
 .page_top .content_report {
     padding: 4% 0 2%;
 }
+
 @media screen and (min-width: 768px) {
     .page_top .content_report {
         padding: 40px 0 10px;
     }
 }
+
 .page_top .content_report h2 {
     margin-bottom: 3%;
 }
+
 .page_top .content_report .report_main {
     position: relative;
     margin: 0 auto 3%;
 }
+
 @media screen and (min-width: 768px) {
     .page_top .content_report .report_main {
         margin: 0 auto 30px;
     }
 }
+
 .page_top .content_report .report_main .report_main-img {
     max-width: 750px;
     margin: 0 auto;
     position: relative;
 }
+
 @media screen and (max-width: 768px) {
     .page_top .content_report .report_main .report_main-img {
         width: 90%;
     }
 }
+
 .page_top .content_report .report_main .report_main-tit {
     position: absolute;
     top: -1%;
     left: -2%;
 }
+
 .page_top .content_report .report_main .report_main-tit img {
     width: 75%;
 }
+
 @media screen and (min-width: 768px) {
     .page_top .content_report .report_main .report_main-tit img {
         width: 558px;
     }
 }
+
 .page_top .content_report .report_main .report_main-txt {
     color: #000;
     margin-top: 0.5em;
     font-size: 1.1rem;
 }
+
 @media screen and (min-width: 768px) {
     .page_top .content_report .report_main .report_main-txt {
         font-size: 1.6rem;
     }
 }
+
 .page_top .content_report .report-inner {
     margin-bottom: 4%;
 }
+
 @media screen and (min-width: 768px) {
     .page_top .content_report .report-inner {
         margin-bottom: 40px;
     }
 }
+
 .page_top .content_report .report-inner h3 {
     margin-bottom: 2%;
 }
+
 .page_top .content_report .report-inner h4 {
     color: #31A129;
     margin-bottom: 0.5em;
@@ -703,91 +717,112 @@ footer address {
     font-weight: 900;
     line-height: 1.36;
 }
+
 @media screen and (min-width: 768px) {
     .page_top .content_report .report-inner h4 {
         font-size: 3.2rem;
     }
 }
+
 .page_top .content_report .report-inner p {
     color: #000;
     font-size: 1.2rem;
 }
+
 @media screen and (min-width: 768px) {
     .page_top .content_report .report-inner p {
         font-size: 1.7rem;
     }
 }
+
 .page_top .content_report .report-inner .report-inner_left {
     width: 44%;
     margin-right: 4%;
 }
+
 .page_top .content_report .report-inner .report-inner_right {
     width: 52%;
 }
+
 .page_top .content_report .report-inner .report-inner_right .mb_plus {
     margin-bottom: 1.5em;
 }
+
 @media screen and (max-width: 768px) {
     .page_top .content_report .report-inner .report-inner_right {
         margin-bottom: 1em;
     }
 }
+
 .page_top .content_report figure {
     margin-bottom: 4%;
 }
+
 @media screen and (min-width: 768px) {
     .page_top .content_report figure {
         margin-bottom: 40px;
     }
 }
+
 .page_top .content_report figure figcaption {
     color: #000;
     margin-top: 0.5em;
     font-size: 1.1rem;
     line-height: 1.45;
 }
+
 @media screen and (min-width: 768px) {
     .page_top .content_report figure figcaption {
         font-size: 1.6rem;
     }
 }
+
 .page_top .content_report .report-2photo {
     margin-bottom: 4%;
 }
+
 @media screen and (min-width: 768px) {
     .page_top .content_report .report-2photo {
         margin-bottom: 40px;
     }
 }
+
 .page_top .content_report .report-2photo dl {
     width: 48%;
     margin-right: 4%;
 }
+
 .page_top .content_report .report-2photo dl:nth-child(2n) {
     margin-right: 0;
 }
+
 .page_top .content_report .report-2photo dl dt {
     margin-bottom: 0.5em;
     width: 100%;
 }
+
 .page_top .content_report .report-2photo dl dd {
     font-size: 1.1rem;
     line-height: 1.4;
 }
+
 @media screen and (min-width: 768px) {
     .page_top .content_report .report-2photo dl dd {
         font-size: 1.6rem;
     }
 }
+
 .page_top .content_shop {
     background-color: #DFEBD9;
     padding: 4% 0;
 }
+
 @media screen and (min-width: 768px) {
     .page_top .content_shop {
         padding: 40px 0;
     }
 }
+
 .page_top .content_shop h2 {
     text-align: center;
     background: url("../images/top/bg_line-02.svg") no-repeat center bottom;
@@ -797,53 +832,62 @@ footer address {
     font-size: 1.6rem;
     font-weight: 700;
 }
+
 @media screen and (min-width: 768px) {
     .page_top .content_shop h2 {
         font-size: 2.8rem;
     }
 }
+
 .page_top .content_shop .shop-inner .shop-img {
     width: 48%;
     margin-right: 4%;
 }
+
 .page_top .content_shop .shop-inner .shop-txt {
     width: 48%;
     font-size: 1.2rem;
     margin-top: 0;
 }
+
 @media screen and (min-width: 768px) {
     .page_top .content_shop .shop-inner .shop-txt {
         font-size: 1.8rem;
         margin-top: 1em;
     }
 }
+
 .page_top .content_shop .shop-inner .shop-txt p {
     margin-bottom: 0.5em;
 }
-
 
 .page_top .content_shopping {
     padding: 4% 0 2%;
     color: #1a1a1a;
     font-size: 1.1rem;
 }
+
 @media screen and (min-width: 768px) {
     .page_top .content_shopping {
         padding: 40px 0 20px;
         font-size: 1.6rem;
     }
 }
+
 .page_top .content_shopping .shopping_card {
     width: 56%;
 }
+
 .page_top .content_shopping .shopping-inner {
     margin-bottom: 3%;
 }
+
 @media screen and (min-width: 768px) {
     .page_top .content_shopping .shopping-inner {
         margin-bottom: 30px;
     }
 }
+
 .page_top .content_shopping h2 {
     background-color: #EFE7BC;
     padding: 0.5em;
@@ -851,40 +895,50 @@ footer address {
     font-size: 1.2rem;
     font-weight: 700;
 }
+
 @media screen and (min-width: 768px) {
     .page_top .content_shopping h2 {
         font-size: 2.0rem;
     }
 }
+
 .page_top .content_shopping ul li {
     padding-left: 1em;
     margin-bottom: 0.5em;
     line-height: 1.5;
 }
+
 .page_top .content_shopping ul li::before {
     margin-left: -1em;
 }
+
 .page_top .content_shopping ul.list_circle li::before {
     content: '◯';
 }
+
 .page_top .content_shopping ul.list_caution li::before {
     content: '※';
 }
+
 .page_top .content_shopping ul.list_dia li::before {
     content: '◆';
 }
+
 .page_top .content_shopping .shopping_bank {
     border: 2px dotted #cccccc;
     padding: 1em;
     margin-bottom: 1em;
 }
+
 @media screen and (min-width: 768px) {
     .page_top .content_shopping .shopping_bank {
         border: 1px dotted #cccccc;
     }
 }
 
+
 /* お申し込みボタンブロック */
+
 
 /* .content_entry {
   background: -moz-linear-gradient(50% 100% 90deg, #c9ddbf 26.7%, rgba(247, 196, 152, 0.5) 78.17%, rgba(247, 196, 152, 0) 100%);
@@ -896,19 +950,23 @@ footer address {
   background: linear-gradient(0deg, rgb(201 221 191) 26.7%, rgb(247 196 152 / 50%) 78.17%, rgb(247 196 152 / 100%) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F7C498',endColorstr='#C9DDBF' , GradientType=0);
   } */
+
 .content_entry_flex {
     display: flex;
     justify-content: space-between;
     /* margin-bottom: -10px; */
 }
+
 .content_entry_left {
     padding-right: 2%;
     font-size: 5em;
 }
+
 .content_entry_right {
     padding-left: 2%;
     font-size: 5em;
 }
+
 .content_btn_p {
     letter-spacing: rem;
     font-size: 1.2rem;
@@ -917,29 +975,35 @@ footer address {
     font-weight: bold;
     letter-spacing: 0rem;
 }
+
 @media screen and (min-width: 768px) {
     .content_btn_p {
         font-size: 2.2rem;
         line-height: 3rem;
     }
 }
+
 .content_btn_p .small {
     font-size: 1rem;
 }
+
 @media screen and (min-width: 768px) {
     .content_btn_p .small {
         font-size: 1.8rem;
     }
 }
+
 .content_entry .content_entry-inner {
     padding: 5% 0 5%;
     text-align: center;
 }
+
 @media screen and (min-width: 768px) {
     .content_entry .content_entry-inner {
         padding: 40px 0 46px;
     }
 }
+
 .content_entry h2 {
     color: #77001A;
     margin: 0.25em auto 0.5em;
@@ -947,14 +1011,17 @@ footer address {
     font-size: 2.0rem;
     font-weight: 900;
 }
+
 @media screen and (min-width: 768px) {
     .content_entry h2 {
         font-size: 3.8rem;
     }
 }
+
 .content_entry .btn_link-entry {
     margin-bottom: 5%;
 }
+
 .btn_link-entry a {
     display: block;
     background-color: #7B001E;
@@ -972,6 +1039,7 @@ footer address {
     /* height: 49px; */
     line-height: 2.2rem;
 }
+
 @media screen and (min-width: 768px) {
     .content_entry .btn_link-entry a {
         font-size: 3.2rem;
@@ -980,6 +1048,7 @@ footer address {
         letter-spacing: 0.1em;
     }
 }
+
 .btn_link-entry a>span {
     padding-right: 30px;
     background: url("../images/common/ico_cart-01.svg") no-repeat center right;
@@ -991,6 +1060,7 @@ footer address {
     /* height: 23px; */
     /* display: block; */
 }
+
 @media screen and (min-width: 768px) {
     .btn_link-entry a>span {
         padding-right: 40px;
@@ -998,18 +1068,17 @@ footer address {
         font-size: 3rem;
     }
     .btn_link-entry a {
-     line-height: 5rem;
+        line-height: 5rem;
     }
-
-    
 }
+
 .btn_link-entry a:active {
     -webkit-transform: translateY(5px);
     transform: translateY(5px);
     /*下に動く*/
-    
     box-shadow: none;
 }
+
 @media screen and (min-width: 768px) {
     .btn_link-entry a:active {
         -webkit-transform: translateY(10px);
@@ -1017,15 +1086,16 @@ footer address {
         /*下に動く*/
     }
 }
+
 .btn_link-entry a:hover {
     cursor: pointer;
     opacity: 1;
     -webkit-transform: translateY(5px);
     transform: translateY(5px);
     /*下に動く*/
-    
     box-shadow: none;
 }
+
 @media screen and (min-width: 768px) {
     .btn_link-entry a:hover {
         -webkit-transform: translateY(10px);
@@ -1033,27 +1103,33 @@ footer address {
         /*下に動く*/
     }
 }
+
 .btn_link-tel {
     margin-bottom: 3%;
 }
+
 .btn_link-tel a {
     display: block;
     line-height: 1;
 }
+
 .btn_link-tel a img {
     width: 100%;
     text-align: center;
     line-height: 1;
 }
+
 @media screen and (min-width: 768px) {
     .btn_link-tel a:hover {
         opacity: 1;
     }
 }
+
 .content_entry .txt-caution {
     color: #333;
     font-size: 1.8rem;
 }
+
 @media screen and (max-width: 768px) {
     .content_entry .txt-caution {
         font-size: 1.1rem;
